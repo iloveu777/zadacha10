@@ -12,15 +12,10 @@ namespace ConsoleApp3
     {
        static void Main(string[] args)
         {
-            SetWindowSize(WindowWidth, 71);
-            SetWindowSize(WindowHeight, 71);
             BackgroundColor = ConsoleColor.White;
             ForegroundColor = ConsoleColor.Black;
             Clear();
             Title = "123";
-            int height = WindowHeight;
-            int width = WindowWidth;
-            WriteLine($"высота {height}, ширина {width}");
             string a;
             int b;
             Write("Как тебя зовут? ");
